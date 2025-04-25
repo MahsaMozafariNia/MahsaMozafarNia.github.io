@@ -8,16 +8,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
-:root {
-	--main-bg: #f3e2eb; /* very light background derived from #F7374F */
-	--accent-red: #F7374F;
-	--accent-plum: #88304E;
-	--deep-purple: #522546;
-	--dark-gray: #2C2C2C;
-  }
-
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -94,7 +84,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: var(--main-bg);
+		background: #F2545B;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -127,11 +117,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: var(--deep-purple) !important;
+			color: #00777c !important;
 		}
 
 	strong, b {
-		color: var(--accent-red);
+		color: #13505b;
 		font-weight: 700;
 	}
 
