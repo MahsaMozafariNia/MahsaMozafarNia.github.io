@@ -89,7 +89,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #edd8d8;
+		background: #fbc5c5;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3087,7 +3087,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #F7374F;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
