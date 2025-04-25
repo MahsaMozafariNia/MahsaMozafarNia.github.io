@@ -3314,3 +3314,46 @@ input, select, textarea {
 			}
 
 	}
+
+
+
+	#Award 
+	.tooltip {
+		position: relative;
+		display: inline-block;
+		background: #f0f0f0;
+		padding: 8px 14px;
+		border-radius: 20px;
+		font-size: 0.95em;
+		font-weight: 500;
+		cursor: help;
+		transition: background 0.3s;
+	  }
+	  
+	  .tooltip:hover {
+		background: #ddd;
+	  }
+	  
+	  .tooltiptext {
+		visibility: hidden;
+		width: max-content;
+		background-color: #333;
+		color: #fff;
+		text-align: left;
+		border-radius: 6px;
+		padding: 8px 12px;
+		position: absolute;
+		z-index: 1;
+		bottom: 130%;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+		white-space: nowrap;
+		transition: opacity 0.3s;
+	  }
+	  
+	  .tooltip:hover .tooltiptext {
+		visibility: visible;
+		opacity: 1;
+	  }
+	  
