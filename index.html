@@ -70,16 +70,32 @@
 										<header class="major">
 										  <h2 style="text-align: left; font-weight: 600; font-size: 1.7em; border-bottom: 2px solid #ccc; padding-bottom: 0.4em;">Honors & Awards</h2>
 										</header>
-										<ul style="padding-left: 1.2em; line-height: 1.8em; font-size: 1.05em;">
-										  <li><strong>Herz Award</strong> – Alexander von Humboldt Foundation, University of Konstanz (2021–2022)</li>
-										  <li><strong>Distinguished Talent Admission</strong> – Shahid Beheshti University (2018)</li>
-										  <li><strong>Distinguished Talent Admission</strong> – Isfahan University of Technology (2015)</li>
-										  <li><strong>Ranked 2<sup>nd</sup></strong> among 92 M.Sc. students – IUT, 2015–2017</li>
-										  <li><strong>Ranked 4<sup>th</sup></strong> among 25 B.Sc. students – IUT, 2011–2015</li>
-										  <li><strong>Online ZUKOnnect Ambassador</strong> – University of Konstanz (2022)</li>
-										  <li><strong>Reviewer</strong> – <em>Discrete Applied Mathematics Journal</em></li>
-										</ul>
+									  
+										<div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 1em;">
+										  <span class="tooltip">🎖 Herz Award
+											<span class="tooltiptext">Alexander von Humboldt Foundation, University of Konstanz (2021–2022)</span>
+										  </span>
+										  <span class="tooltip">🎓 Distinguished Talent (Ph.D. - SBU)
+											<span class="tooltiptext">Distinguished Talent Admission – Shahid Beheshti University (2018)</span>
+										  </span>
+										  <span class="tooltip">🎓 Distinguished Talent (M.Sc. - IUT)
+											<span class="tooltiptext">Distinguished Talent Admission – Isfahan University of Technology (2015)</span>
+										  </span>
+										  <span class="tooltip">🏆 Ranked 2<sup>nd</sup> M.Sc.
+											<span class="tooltiptext">2nd among 92 M.Sc. students – IUT, 2015–2017</span>
+										  </span>
+										  <span class="tooltip">🏆 Ranked 4<sup>th</sup> B.Sc.
+											<span class="tooltiptext">4th among 25 B.Sc. students – IUT, 2011–2015</span>
+										  </span>
+										  <span class="tooltip">🌐 ZUKOnnect Ambassador
+											<span class="tooltiptext">Online ZUKOnnect Ambassador – University of Konstanz (2022)</span>
+										  </span>
+										  <span class="tooltip">🖋 Reviewer
+											<span class="tooltiptext"><em>Discrete Applied Mathematics Journal</em></span>
+										  </span>
+										</div>
 									  </section>
+									  
 									  
 
 								</div>
@@ -614,6 +630,44 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				  100% { opacity: 1; }
 				}
 			  </style>
+
+<style>
+	.tooltip {
+	  position: relative;
+	  display: inline-block;
+	  background: #eee;
+	  padding: 8px 12px;
+	  border-radius: 20px;
+	  font-size: 0.95em;
+	  cursor: help;
+	  transition: background 0.3s;
+	}
+	.tooltip:hover {
+	  background: #ccc;
+	}
+	.tooltiptext {
+	  visibility: hidden;
+	  width: max-content;
+	  background-color: #333;
+	  color: #fff;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  z-index: 1;
+	  bottom: 130%;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  opacity: 0;
+	  white-space: nowrap;
+	  transition: opacity 0.3s;
+	}
+	.tooltip:hover .tooltiptext {
+	  visibility: visible;
+	  opacity: 1;
+	}
+	</style>
+	
 			  
 	</body>
 </html>
