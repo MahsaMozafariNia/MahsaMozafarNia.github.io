@@ -20,6 +20,7 @@
 					<h1 id="logo"><a href="#">Mahsa Mozafarinia</a></h1>
 					<p>Data Scientist & AI Researcher<br />
 					interested in</p>
+					<p><span id="typed-text"></span><span class="cursor">|</span></p>
 				</header>
 				<nav id="nav">
 					<ul>
@@ -618,6 +619,55 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+
+			let i = 0;
+			let j = 0;
+			let currentText = "";
+			let isDeleting = false;
+		  
+			function type() {
+			  const target = document.getElementById("typed-text");
+			  if (i < texts.length) {
+				if (!isDeleting && j <= texts[i].length) {
+				  currentText = texts[i].substring(0, j++);
+				} else if (isDeleting && j >= 0) {
+				  currentText = texts[i].substring(0, j--);
+				}
+		  
+				target.innerHTML = currentText;
+		  
+				if (j === texts[i].length) {
+				  isDeleting = true;
+				  setTimeout(type, 1000);
+				} else if (j === 0 && isDeleting) {
+				  isDeleting = false;
+				  i = (i + 1) % texts.length;
+				  setTimeout(type, 200);
+				} else {
+				  setTimeout(type, isDeleting ? 50 : 100);
+				}
+			  }
+			}
+		  
+			document.addEventListener("DOMContentLoaded", () => {
+			  type();
+			});
+		  </script>
+		  
+		  <style>
+			.cursor {
+			  display: inline-block;
+			  width: 12px;
+			  animation: blink 1s infinite;
+			}
+		  
+			@keyframes blink {
+			  0% { opacity: 1; }
+			  50% { opacity: 0; }
+			  100% { opacity: 1; }
+			}
+		  </style>
 
 	</body>
 </html>
