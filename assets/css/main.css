@@ -1791,12 +1791,12 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #88304E;
+		color: #541d4e;
 		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
-			color: #88304E;
+			color:#983b5a;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
