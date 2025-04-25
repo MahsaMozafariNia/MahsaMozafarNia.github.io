@@ -127,7 +127,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #777;
+		color: #0533b1;
 		font-weight: 700;
 	}
 
@@ -146,7 +146,7 @@ input, select, textarea {
 		margin: 0 0 0.5625em 0;
 	}
 	h3 {
-		color: #bf4d73; /* or any other color you want */
+		color: rgb(104, 41, 62); /* or any other color you want */
 		font-weight: 500;
 	  }
 
@@ -2711,7 +2711,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #F7374F;
+		background: #c32b3d;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
