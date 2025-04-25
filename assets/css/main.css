@@ -1800,7 +1800,7 @@ input, select, textarea {
 	}
 
 		header.major h2 + p {
-			color:#983b5a;
+			color:#f0105a;
 			/* font-size: 1.75em; */
 			font-size: 1.5em;
 			font-weight: 500;
@@ -2696,7 +2696,7 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
-/* Header */
+/* Header */   Sidebar
 
 	#header {
 		display: -moz-flex;
@@ -2711,7 +2711,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #F7374F;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2829,7 +2829,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #fff;
+		background: #f9c9c9;
 		padding-right: 23em;
 	}
 
