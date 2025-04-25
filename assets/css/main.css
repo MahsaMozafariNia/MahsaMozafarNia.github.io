@@ -1795,12 +1795,12 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #7c1212;
+		color: #7c1235;  /*like education*/
 		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
-			color:#f0105a;
+			color:#843d4b;   /* #like univer...konstanz */
 			/* font-size: 1.75em; */
 			font-size: 1.5em;
 			font-weight: 500;
@@ -2829,7 +2829,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #f9c9c9;
+		background: #f9e0e0;    
 		padding-right: 23em;
 	}
 
