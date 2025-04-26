@@ -2775,7 +2775,7 @@ input, select, textarea {
 			}
 
 			#header > header h1 {
-				font-size: 0.7em;
+				font-size: 1.9em;
 				margin: 0;
 			}
 
@@ -2783,7 +2783,7 @@ input, select, textarea {
 				font-size: 1em;
 				color: #d2f2e9;
 				font-style: italic;
-				margin: 1em 0 0 0;
+				margin: 1.3em 0 0 0;
 			}
 
 		#header > footer {
