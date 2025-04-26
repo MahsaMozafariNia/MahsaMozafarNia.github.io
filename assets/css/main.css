@@ -1723,7 +1723,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: calc(100% - 8.5em);
+		max-width: calc(100% - 1.5em);
 		width: 10em;
 	}
 
