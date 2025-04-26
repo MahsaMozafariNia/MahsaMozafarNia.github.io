@@ -667,7 +667,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			});
 		  </script>
 		   -->
-		  <style>
+		  <!-- <style>
 			.cursor {
 			  display: inline-block;
 			  width: 12px;
@@ -679,7 +679,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			  50% { opacity: 0; }
 			  100% { opacity: 1; }
 			}
-		  </style>
+		  </style> -->
 
 		<script>
 			let i = 0;
@@ -700,7 +700,32 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			showText();
 			});
 		</script>
+		
+
+		<style>
+			#typed-text {
+			  opacity: 0;
+			  transform: translateY(20px);
+			  transition: opacity 1s ease, transform 1s ease;
+			}
 			
+			#typed-text.fade-in {
+			  opacity: 1;
+			  transform: translateY(0);
+			}
+			
+			.cursor {
+			  display: inline-block;
+			  width: 12px;
+			  animation: blink 1s infinite;
+			}
+			
+			@keyframes blink {
+			  0% { opacity: 1; }
+			  50% { opacity: 0; }
+			  100% { opacity: 1; }
+			}
+		</style>
 
 	</body>
 </html>
