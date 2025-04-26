@@ -2769,7 +2769,7 @@ input, select, textarea {
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 3.25em auto;
+				margin: 0 auto 2.25em auto;
 				width: 8em;
 			}
 
@@ -2781,7 +2781,7 @@ input, select, textarea {
 			#header > header p {
 				color: #d2f2e9;
 				font-style: italic;
-				font-size: 1.5em;
+				font-size: 2em;
 				margin: 1em 0 0 0;
 			}
 
