@@ -631,7 +631,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			function type() {
 			  const target = document.getElementById("typed-text");
 			  if (i < texts.length) {
-				if (!isDeleting && j <= texts[i].length+1) {
+				if (!isDeleting && j < texts[i].length) {
 				  currentText = texts[i].substring(0, j++);
 				} else if (isDeleting && j >= 0) {
 				  currentText = texts[i].substring(0, j--);
