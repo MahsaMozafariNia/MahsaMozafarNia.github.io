@@ -1723,7 +1723,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: calc(100% - 4.5em);
+		max-width: calc(100% - 1.5em);
 		width: 45em;
 	}
 
@@ -2775,7 +2775,7 @@ input, select, textarea {
 			}
 
 			#header > header h1 {
-				font-size: 2em;
+				font-size: 1em;
 				margin: 0;
 			}
 
