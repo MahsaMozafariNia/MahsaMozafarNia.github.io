@@ -1804,6 +1804,11 @@ input, select, textarea {
 		font-size: 3em;
 	}
 
+	header.major h4 {
+		color: #7c1212;  
+		font-size: 2em;
+	}
+
 		header.major h2 + p {
 			color:#040404;   /*#paragraph after header*/
 			/* font-size: 1.75em; */
