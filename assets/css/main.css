@@ -127,7 +127,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #041b5b;
+		color: #0533b1;
 		font-weight: 700;
 	}
 
@@ -2731,11 +2731,11 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #9df737;
+			color: #F7374F;
 		}
 
 		#header a {
-			color: #37f74e;
+			color: #F7374F;
 		}
 
 			#header a:hover {
@@ -2829,7 +2829,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #dfe5f6;
+		background: #0746f4;
 		padding-right: 23em;
 	}
 
