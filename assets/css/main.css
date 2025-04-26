@@ -1795,7 +1795,7 @@ input, select, textarea {
 	header h5 + p,
 	header h6 + p {
 		font-size: 1em;
-		margin-top: -0.25em;
+		margin-top: -0.35em;
 		line-height: 1.5em;
 	}
 
