@@ -1781,7 +1781,7 @@ input, select, textarea {
 	}
 
 	header h3 + p {
-		font-size: 0.7em;
+		font-size: 0.6em;
 		margin-top: -0.35em;
 		line-height: 1.5em;
 	}
@@ -1796,7 +1796,7 @@ input, select, textarea {
 
 	header.major h2 {
 		color: #7c1212;  
-		font-size: 3.5em;
+		font-size: 3em;
 	}
 
 		header.major h2 + p {
