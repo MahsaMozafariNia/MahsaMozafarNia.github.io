@@ -704,7 +704,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			target.classList.add("fade-in"); // Add animation
 			
 			i = (i + 1) % texts.length; // Move to next text
-			setTimeout(showText, 1000); // Show next text every 3 seconds
+			setTimeout(showText, 500); // Show next text every 3 seconds
 			}
 			
 			document.addEventListener("DOMContentLoaded", () => {
@@ -716,7 +716,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<style>
 			#typed-text {
 			  opacity: 0;
-			  transform: translateY(20px);
+			  transform: translateY(40px);
 			  transition: opacity 1s ease, transform 1s ease;
 			}
 			
@@ -727,7 +727,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			
 			.cursor {
 			  display: inline-block;
-			  width: 14px;
+			  width: 16px;
 			  animation: blink 1s infinite;
 			}
 			
