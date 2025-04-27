@@ -2773,7 +2773,7 @@ input, select, textarea {
 				width: 14em;
 				font-size: 1em;
 			}
-
+/* 
 			.avatar img {
 				transition: transform 0.3s ease;
 			}
@@ -2781,7 +2781,7 @@ input, select, textarea {
 			.avatar img:hover {
 				transform: scale(1.5);
 				z-index: 1000;
-			}
+			} */
 
 			#header > header h1 {
 				font-size: 1.3em;
