@@ -3262,7 +3262,7 @@ input, select, textarea {
 			}
 
 				header.major h2 + p {
-					font-size: 3em;
+					font-size: 1.5em;
 				}
 
 		/* Features */
@@ -3299,7 +3299,7 @@ input, select, textarea {
 			#header > header {
 				padding: 0 !important;
 				display: flex;
-				flex-direction: column;
+				flex-direction: row;
 				align-items: center;
 			}
 
