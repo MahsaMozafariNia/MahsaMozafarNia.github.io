@@ -3281,15 +3281,54 @@ input, select, textarea {
 
 		/* Header */
 
+		/* Header */
 			#header {
+				display: flex !important;
+				flex-direction: column !important;
+				justify-content: center !important;
+				align-items: center !important;
+				position: relative !important;
+				width: 100% !important;
+				height: auto !important;
+				transform: none !important;
+				background: #2e1665bd;
+				padding: 1em 0;
+				right: auto !important;
+			}
+
+			#header > header {
+				padding: 0 !important;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			#header > nav ul {
+				display: flex !important;
+				flex-direction: row !important;
+				justify-content: center !important;
+				flex-wrap: wrap;
+				gap: 1em;
+				margin-top: 1em;
+				padding: 0;
+			}
+
+			#header > nav ul li {
+				border-top: none !important;
+				display: inline-block !important;
+				margin: 0;
+			}
+
+
+			/* #header {
 				width: 17em;
 				-moz-transform: translateX(17em);
 				-webkit-transform: translateX(17em);
 				-ms-transform: translateX(17em);
 				transform: translateX(17em);
 				right: 0;
-			}
-
+			} */
+/* 
 				#header > header {
 					padding: 2em;
 				}
@@ -3309,7 +3348,7 @@ input, select, textarea {
 
 				#header > footer {
 					padding: 1.5em;
-				}
+				} */
 
 		/* Main */
 
