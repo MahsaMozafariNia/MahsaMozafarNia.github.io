@@ -2741,8 +2741,15 @@ input, select, textarea {
 		top: 0;
 		width: 26em;
 		right: 0; */
+<<<<<<< HEAD
 
 	
+=======
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+>>>>>>> 093ee2587f3b7f500935d9ca91219503a70f855f
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -2750,14 +2757,20 @@ input, select, textarea {
 		height: auto;
 		background: #2e1665bd;
 		color: #d2f2e9;
+<<<<<<< HEAD
 		text-align: center;
 		z-index: 1000;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		padding: 1.5em 0;
 	
 		
+=======
+		text-align: left;
+		padding: 1em 2em;
+		z-index: 1000;
+>>>>>>> 093ee2587f3b7f500935d9ca91219503a70f855f
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -3382,71 +3395,69 @@ input, select, textarea {
 
 	}
 
-
 /* XSmall */
 
-@media screen and (max-width: 480px) {
+	@media screen and (max-width: 480px) {
 
-	/* Basic */
+		/* Basic */
 
-		html, body {
-			min-width: 320px;
-		}
+			html, body {
+				min-width: 320px;
+			}
 
-		body, input, select, textarea {
-			font-size: 12pt;
-		}
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
 
-	/* List */
+		/* List */
 
-		ul.actions {
-			margin: 0 0 2.25em 0;
-		}
+			ul.actions {
+				margin: 0 0 2.25em 0;
+			}
 
-			ul.actions li {
+				ul.actions li {
+					display: block;
+					padding: 1.125em 0 0 0;
+					text-align: center;
+					width: 100%;
+				}
+
+					ul.actions li:first-child {
+						padding-top: 0;
+					}
+
+					ul.actions li > * {
+						width: 100%;
+						margin: 0 !important;
+					}
+
+						ul.actions li > *.icon:before {
+							margin-left: -2em;
+						}
+
+				ul.actions.small li {
+					padding: 0.5625em 0 0 0;
+				}
+
+					ul.actions.small li:first-child {
+						padding-top: 0;
+					}
+
+			ul.feature-icons li {
 				display: block;
-				padding: 1.125em 0 0 0;
-				text-align: center;
 				width: 100%;
 			}
 
-				ul.actions li:first-child {
-					padding-top: 0;
-				}
+		/* Button */
 
-				ul.actions li > * {
-					width: 100%;
-					margin: 0 !important;
-				}
-
-					ul.actions li > *.icon:before {
-						margin-left: -2em;
-					}
-
-			ul.actions.small li {
-				padding: 0.5625em 0 0 0;
+			input[type="submit"],
+			input[type="reset"],
+			input[type="button"],
+			.button {
+				padding: 0;
 			}
 
-				ul.actions.small li:first-child {
-					padding-top: 0;
-				}
-
-		ul.feature-icons li {
-			display: block;
-			width: 100%;
-		}
-
-	/* Button */
-
-		input[type="submit"],
-		input[type="reset"],
-		input[type="button"],
-		.button {
-			padding: 0;
-		}
-
-}
-
+	}
 
 
 
