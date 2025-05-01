@@ -3515,7 +3515,7 @@ input, select, textarea {
 	cursor: pointer;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 480px) {
 		#header {
 		  display: flex;
 		  flex-direction: row;
