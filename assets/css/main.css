@@ -2716,14 +2716,14 @@ input, select, textarea {
 /* Header*/
 
 	#header {
-		display: -moz-flex;
+/* 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
-		flex-direction: row;
+		flex-direction: column;
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
@@ -2736,7 +2736,21 @@ input, select, textarea {
 		text-align: center;
 		top: 0;
 		width: 26em;
-		right: 0;
+		right: 0; */
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: auto;
+		background: #2e1665bd;
+		color: #d2f2e9;
+		text-align: left;
+		padding: 1em 2em;
+		z-index: 1000;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
