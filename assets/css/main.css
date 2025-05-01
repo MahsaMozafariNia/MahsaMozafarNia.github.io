@@ -3493,3 +3493,33 @@ input, select, textarea {
 	cursor: pointer;
 	}
 	
+	@media screen and (max-width: 768px) {
+		#header {
+		  position: relative;
+		  width: 100%;
+		  height: auto;
+		  flex-direction: row;
+		  justify-content: space-around;
+		  align-items: center;
+		  text-align: center;
+		  padding: 1em;
+		}
+	  
+		#header > header,
+		#header > footer,
+		#header > nav {
+		  padding: 0;
+		  margin: 0;
+		  flex: 1;
+		}
+	  
+		#header .avatar {
+		  width: 4em;
+		}
+	  
+		#wrapper {
+		  padding-right: 0 !important;
+		  padding-top: 6em;
+		}
+	  }
+	  
