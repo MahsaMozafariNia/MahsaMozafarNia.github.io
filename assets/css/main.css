@@ -2864,10 +2864,15 @@ input, select, textarea {
 				/* list-style: none;
 				margin: 0;
 				padding: 0; */
+				
+
+				list-style: none;
+				margin: 0;
+				padding: 0;
 				display: flex;
 				justify-content: center;
-				flex-wrap: wrap;
-				gap: 1em;
+				gap: 2em;
+				flex-wrap: wrap; 
 			}
 
 				#header > nav ul li {
@@ -2875,6 +2880,7 @@ input, select, textarea {
 					display: block;
 					padding: 0; */
 					border-top: none;
+					
 				}
 
 					#header > nav ul li a {
@@ -2887,15 +2893,18 @@ input, select, textarea {
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none; */
-
+						display: inline-block;
 						padding: 0.5em 1em;
-	border-radius: 20px;
-	background: rgba(255,255,255,0.1);
+						color: #ffffff !important;
+						text-decoration: none;
+						border-bottom: 2px solid transparent;
+						transition: border-color 0.3s;
 					}
-
+						#header > nav ul li a:hover,
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							/* background: #fff;
+							color: #4acaa8 !important; */
+							border-bottom: 2px solid #5ccfb1;
 						}
 
 					#header > nav ul li:first-child {
