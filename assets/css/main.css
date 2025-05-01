@@ -2716,7 +2716,11 @@ input, select, textarea {
 /* Header*/
 
 	#header {
+<<<<<<< HEAD
 		/* display: -moz-flex;
+=======
+/* 		display: -moz-flex;
+>>>>>>> 093ee2587f3b7f500935d9ca91219503a70f855f
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
@@ -2737,8 +2741,15 @@ input, select, textarea {
 		top: 0;
 		width: 26em;
 		right: 0; */
+<<<<<<< HEAD
 
 	
+=======
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+>>>>>>> 093ee2587f3b7f500935d9ca91219503a70f855f
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -2746,6 +2757,7 @@ input, select, textarea {
 		height: auto;
 		background: #2e1665bd;
 		color: #d2f2e9;
+<<<<<<< HEAD
 		text-align: center;
 		z-index: 1000;
 		display: flex;
@@ -2754,6 +2766,11 @@ input, select, textarea {
 		padding: 1.5em 0;
 	
 		
+=======
+		text-align: left;
+		padding: 1em 2em;
+		z-index: 1000;
+>>>>>>> 093ee2587f3b7f500935d9ca91219503a70f855f
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2889,9 +2906,16 @@ input, select, textarea {
 
 	#wrapper {
 		background: #ebeefa;
+<<<<<<< HEAD
 		/* padding-right: 26em; */
 		padding-top: 15em; /* Adjust based on header height */
 		padding-right: 0;
+=======
+		padding-right: 23em;
+		margin-left: auto;
+ 		margin-right: auto;
+  		max-width: calc(100% - 23em);
+>>>>>>> 093ee2587f3b7f500935d9ca91219503a70f855f
 	}
 
 /* Main */
