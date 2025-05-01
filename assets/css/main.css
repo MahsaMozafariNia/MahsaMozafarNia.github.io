@@ -3284,7 +3284,7 @@ input, select, textarea {
 		/* Header */
 			#header {
 				display: flex !important;
-				flex-direction: column !important;
+				flex-direction: row !important;
 				justify-content: center !important;
 				align-items: center !important;
 				position: relative !important;
