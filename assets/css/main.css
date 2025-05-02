@@ -2854,8 +2854,8 @@ input, select, textarea {
 						}
 
 					#header > nav ul li:first-child {
-						border-top: 1.5 em;
-						margin-top: 5 em;
+						border-top: 10em;
+						margin-top: 5em;
 					}
 
 /* Wrapper */
