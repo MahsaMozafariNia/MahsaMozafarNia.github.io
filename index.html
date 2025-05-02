@@ -769,7 +769,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			function showText() {
 			const target = document.getElementById("typed-text");
 			
-			target.innerHTML = <strong>${texts[i]}</strong>;  // Show full text immediately
+			target.innerHTML =  `<strong>${texts[i]}</strong>`;  // Show full text immediately
 			target.classList.remove("fade-in"); // Reset animation
 			void target.offsetWidth; // Trick to re-trigger the animation
 			target.classList.add("fade-in"); // Add animation
